@@ -1,101 +1,120 @@
-html{
+html {
   scroll-behavior: smooth;
   background-color: #8C2703;
 }
-div{
+
+div {
   text-align: center;
 }
-h1{
+
+h1 {
   font-size: 4vw;
 }
-h2{
+
+h2 {
   font-size: 3vw;
 }
-a{
-  color:#FFFDA4;
-  font-size:3vw;
-  padding:25px;
+
+a {
+  color: #FFFDA4;
+  font-size: 3vw;
+  padding: 25px;
   text-decoration: none;
 }
-p{
-font-family: 'Architects Daughter', cursive;
-font-size: 3vw;
+
+p {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 3vw;
 }
-footer{
-background-color: #ED7A3E;
-text-align: center;
-color:#FFFDA4;
+
+footer {
+  background-color: #ED7A3E;
+  text-align: center;
+  color: #FFFDA4;
 }
+
 div.nav {
-position:fixed;
-top:0;
-left:0;
-background-color: #ED7A3E;
-color:#FFFDA4;
-border-top: 5px solid #591902;
-border-bottom: 5px solid #591902;
-width: 100%;
-max-width: 100%;
-font-family: 'Architects Daughter', cursive;
-z-index: 25;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ED7A3E;
+  color: #FFFDA4;
+  border-top: 5px solid #591902;
+  border-bottom: 5px solid #591902;
+  width: 100%;
+  max-width: 100%;
+  font-family: 'Architects Daughter', cursive;
+  z-index: 25;
 }
-.title{
-font-family: 'Staatliches', cursive;
+
+.title {
+  font-family: 'Staatliches', cursive;
 }
+
 .landing {
-  width:100%;
-  height:10%;
+  width: 100%;
+  height: 10%;
   max-height: 25%;
+  margin-top: 15%;
+  ;
 }
-.call{
+
+.call {
   position: absolute;
-  top:15vh;
-  left:35%;
+  top: 15vh;
+  left: 35%;
   width: 30%;
   max-width: 40%;
-  color:#FFFDA4;
+  color: #FFFDA4;
   font-family: 'Staatliches', cursive;
   background-color: #ED7A3E;
   border: 5px solid #591902;
 }
-.facebook {
 
+.facebook {
   position: fixed;
-  right:5%;
-  top:5%;
+  right: 5%;
+  top: 2vh;
   z-index: 26;
 }
+
 .facebook img {
   width: 5vw;
 }
-.section1{
+
+.section1 {
   text-align: center;
 }
-.section1 img{
-  width:35vw;
+
+.section1 img {
+  width: 35vw;
   background-color: #ED7A3E;
-  margin:2%;
+  margin: 2%;
   border: 2vw solid #591902;
 }
+
 .section2 {
-font-family: 'Staatliches', cursive;
-text-align: center;
-margin:5%;
-background-color: #ED7A3E;
-border: 10px solid #591902;
-color:#FFFDA4;
+  font-family: 'Staatliches', cursive;
+  text-align: center;
+  margin: 5%;
+  background-color: #ED7A3E;
+  border: 10px solid #591902;
+  color: #FFFDA4;
 }
-.section2 p{
+
+.section2 p {
   font-size: 2.5vw;
 }
-.section2 img{
-  width:100%;
-  height:100%;
 
+.section2 img {
+  width: 100%;
+  height: 100%;
 }
-.space15{
+
+.space15 {
   margin-top: 15%;
 }
-.space20{
-  margin:20%;
+
+.space20 {
+  margin: 20%;
 }
